@@ -39,6 +39,16 @@ body {
    
 }
 
+.product-category {
+    display: block; 
+    font-size: 2em; 
+    margin-top: 0.7em; 
+    margin-bottom: 0.7em; 
+    margin-left: 0.7em; 
+    font-weight: bold;
+    color:#4b9d4d
+}
+
 /* Product Grid */
 .product-grid {
     display:flex;
@@ -109,6 +119,19 @@ body {
 
 .product-button:hover {
     background-color: #c0392b;
+}
+
+
+.product-button:disabled {
+  background-color: #ccc;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+.product-button:disabled:hover {
+  background-color: #ccc;
+  color: #fff;
+  cursor: not-allowed;
 }
 
 /* Pseudo-elements - Sale badge */
